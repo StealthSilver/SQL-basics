@@ -1,0 +1,47 @@
+MySQL -> Database
+SQL -> language to communicate with the Database
+
+Database is a collection of data in a format that can be easily accessed 
+
+why db ?
+1. can store large data 
+2. features like security, scalability
+3. easier to insert, update or delete data 
+
+DBMS -> database management system is a layer over the data which organizes the data 
+
+SQL DB v/s NoSQL DB
+
+SQL : relational db (data is stored in tables)
+
+e.g. MySQL, Oracle, PostgreSQL etc. 
+
+NoSQL : non relational DB (data stored in document / key - val / graph etc.)
+e.g. MongoDB , Cassandra, Neo$j etc. 
+
+SQL -> structured query language 
+
+SQL is a programming language used to interact with the relational databases 
+
+the database can contain numerous tables 
+these tables are interrelated 
+
+the schema is the design of the table, they are captured by the columns 
+rows in SQL is called tuple, they capture the data for respective id 
+
+SQL commands 
+
+CREATE DATABASE db_name ;
+DROP DATABASE db_name ;
+USE db_name;
+
+SQL is case insensitive
+
+to use the db -> USE 
+to create tables :
+
+CREATE table table_name (
+    column_name1 datatype constrain
+    column_name2 datatype constrain
+    column_name3 datatype constrain
+    column_name4 datatype constrain)
