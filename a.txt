@@ -30,6 +30,7 @@ the schema is the design of the table, they are captured by the columns
 rows in SQL is called tuple, they capture the data for respective id 
 
 SQL commands 
+these are the basic commands for SQL
 
 CREATE DATABASE db_name ;
 DROP DATABASE db_name ;
