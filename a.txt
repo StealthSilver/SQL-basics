@@ -228,3 +228,69 @@ It collects data from multiple records and groups the results by one or more col
 SELECT col1, col2 
 FROM table_name 
 GROUP BY col_name;
+
+---------------------------------------
+SELECT count(id)
+FROM user 
+GROUP BY age;
+---------------------------------------
+
+
+HAVING clause 
+
+similar to WHERE, applies some conditions in the row
+But it is used when we want to apply any conditions after grouping
+
+WHERE is for a table, HAVING is for a group
+
+---------------------------------------
+SELECT age, max(followers)
+FROM user
+GROUP BY age
+HAVING max(followers) > 200;
+---------------------------------------
+
+
+General order
+
+SELECT columns 
+FROM table_name
+WHERE condition 
+GROUP BY columns
+HAVING condition
+ORDER BY columns ASC
+
+UPDATE -> to update the existing rows 
+
+UPDATE table_name 
+SET col1 = val1
+WHERE condition;
+
+UPDATE user
+
+---------------------------------------
+
+UPDATE user
+SET followers = 600
+WHERE age = 15;
+
+SET SQL_SAFE_UPDATES = 0; -> to remove the update error
+---------------------------------------
+
+
+DELETE to delete existing rows 
+
+DELETE FROm table_name 
+WHERE condition
+
+---------------------------------------
+DELETE from USER 
+WHERE age = 15;
+---------------------------------------
+
+
+ALTER -> to change the schema 
+
+ADD column 
+DROP column 
+RENAME table
