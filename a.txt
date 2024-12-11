@@ -294,3 +294,31 @@ ALTER -> to change the schema
 ADD column 
 DROP column 
 RENAME table
+
+
+---------------------------------------
+ALTER TABLE user
+ADD COLUMN city VARCHAR(25) DEFAULT "Delhi";
+---------------------------------------
+
+---------------------------------------
+ALTER TABLE user
+DROP COLUMN age;
+---------------------------------------
+
+---------------------------------------
+ALTER TABLE user
+RENAME TO instaUser
+---------------------------------------
+
+---------------------------------------
+
+ALTER TABLE user 
+CHANGE COLUMN followers subs INT DEFAULT 0;
+
+---------------------------------------
+INSERT INTO user
+(id, name, email, following)
+VALUES 
+(7, "genini", "fhadfa@yahoo.in", 120);
+---------------------------------------
