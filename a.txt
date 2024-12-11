@@ -150,4 +150,19 @@ CLAUSE
 to define some conditions 
 
 SELECT col1 , col2 FROM table_name 
-WHERE conditions
+WHERE conditions; 
+
+---------------------------------------
+
+SELECT *
+FROM user
+WHERE followers >= 200;
+---------------------------------------
+ 
+
+operators in where
+
+Arthematic operators ->  + , - , * , / , %
+Comparision operators -> >= , > , < , <=
+Logical operators -> AND , OR, NOT , IN , BETWEEN ,ALL , LIKE , ANY
+Bitwise operators -> & (BITWISE AND) , | (BITWISE OR)
