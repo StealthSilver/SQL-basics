@@ -125,3 +125,29 @@ INSERT -> insert data into tables
 INSERT INTO table_name
 (colname1 , colname2);
 values -
+
+---------------------------------------
+INSERT INTO user
+(id , age , name , email, followers, following)
+VALUES
+(1, 14, "adam" , "adam@yahoo.in", 123, 145),
+(2, 15, "mike" , "adadgfdaam@yahoo.in", 423, 145),
+(3, 16, "harvey" , "adafam@yahoo.in", 12, 15),
+(4, 17, "rachel" , "adjgafam@yahoo.in", 13, 14);
+---------------------------------------
+dont add duplicate values
+
+
+SELECT -> selects and shows data from the db 
+
+SELECT col1, col2 FROM table_name 
+
+to show all 
+
+SELECT * FROM table_name
+
+CLAUSE 
+to define some conditions 
+
+SELECT col1 , col2 FROM table_name 
+WHERE conditions
