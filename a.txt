@@ -70,3 +70,12 @@ DOUBLE
 BOOLEAN 
 DATE 
 YEAR
+
+
+CONSTRAINTS 
+rules for the data in the table 
+
+NOT NULL -> columns cannot have a null value 
+UNIQUE -> all values in column are different
+DEFAULT -> sets the default value of the column 
+CHECK -> it can limit the values allowed in the column
