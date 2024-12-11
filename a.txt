@@ -202,3 +202,29 @@ SELECT *
 FROM user
 ORDER BY age DESC;
 ---------------------------------------
+
+
+AGGREGATE FUNCTIONS 
+aggregate functions perform a calculation on a set of values, and return a single value 
+
+COUNT()
+MAX()
+MIN()
+SUM()
+AVG()
+
+---------------------------------------
+SELECT max(marks)
+FROM student
+---------------------------------------
+
+GROUP BY clause 
+
+Groups rows that ahev the same values into summary rows.
+It collects data from multiple records and groups the results by one or more columns 
+
+- generally we group by some aggragate function 
+
+SELECT col1, col2 
+FROM table_name 
+GROUP BY col_name;
