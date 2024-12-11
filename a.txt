@@ -91,7 +91,7 @@ FKs can have duplicate and null values. There can be multiple FKs
 we can create ER (entity relation) diagrams in the reverse engineer section
 
 to cerate a new db and table 
-
+---------------------------------------
 CREATE DATABASE instagram;
 
 SHOW DATABASES;
@@ -117,3 +117,11 @@ content VARCHAR(100),
 user_id INT,
 FOREIGN KEY (user_id) REFERENCES user(id)
 ); 
+---------------------------------------
+
+
+INSERT -> insert data into tables 
+
+INSERT INTO table_name
+(colname1 , colname2);
+values -
