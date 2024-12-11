@@ -46,3 +46,27 @@ CREATE table table_name (
     column_name2 datatype constrain
     column_name3 datatype constrain
     column_name4 datatype constrain)
+
+CREATE DATABASE db_name 
+CREATE DATABASE IF NOT EXISTS db_name 
+
+DROP DATABASE db_name 
+DROP DATABASE IF EXISTS db_name 
+
+SHOW DATABASES
+SHOW TABLES 
+
+DATA TYPES 
+
+CHAR 
+VARCHAR
+BLOB
+INT 
+TINYINT
+BIGINT
+BIT 
+FLOAT
+DOUBLE 
+BOOLEAN 
+DATE 
+YEAR
