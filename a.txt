@@ -184,3 +184,21 @@ FROM user
 WHERE followers >= 200;
 ---------------------------------------
 
+LIMIT 
+sets an upper limit on number of (tuples) rows to be returned
+
+SELECT col1, col2 FROM table_name 
+LIMIT number
+
+ORDER BY 
+to sort in ascending or descending order 
+
+SELECT col1, col2 FROm table_name 
+ORDER BY col_names ASC / DESC
+
+
+---------------------------------------
+SELECT *
+FROM user
+ORDER BY age DESC;
+---------------------------------------
