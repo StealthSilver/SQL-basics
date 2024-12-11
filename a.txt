@@ -81,8 +81,11 @@ DEFAULT -> sets the default value of the column
 CHECK -> it can limit the values allowed in the column 
 
 
-PRIMARY KEY : makes a column unique and not null but used only once 
-FOREIGN KEY : prevents actions that would destroy links between tables 
+PRIMARY KEY : makes a column unique and not null but used only once. It is a clumn (or a set of columns) in a table that uniquely identifies each row. (a unique id)
+There is only one PK and it should be NOT null.
+
+FOREIGN KEY : prevents actions that would destroy links between tables. It is a column (or set of columns) in a table that refers to the primary key in another table
+FKs can have duplicate and null values. There can be multiple FKs 
 
 
 we can create ER (entity relation) diagrams in the reverse engineer section
