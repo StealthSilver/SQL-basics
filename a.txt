@@ -322,3 +322,8 @@ INSERT INTO user
 VALUES 
 (7, "genini", "fhadfa@yahoo.in", 120);
 ---------------------------------------
+
+
+TRUNCATE -> to delete table's data 
+
+TRUNCATE TABLE table_data
